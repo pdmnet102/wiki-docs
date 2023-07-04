@@ -29,6 +29,7 @@ dateCreated: 2019-07-20T15:31:49.465Z
 1. *(Optional)* Click on **Branding** in the left navigation and enter the necessary info to make it easier for your users.
 1. Click on **Authentication** in the left navigation and enter the **Logout URL** (`https://YOUR-WIKI.DOMAIN.COM`) and make sure the **ID tokens** checkbox under **Implicit grant** is checked, then click **Save** at the top.
 1. Click on **API permissions** in the left navigation and ensure the **Microsoft Graph > User.Read** permission is listed.
+1. Click on **Certificates & Secrets** in the left nevigation and create a new client secret. Add a description (like wifi.js_secret) and leave expires as "Recommended 180 days (6 months)".
 1. *(Optional)* In the **API permissions** section, you can **Grant admin consent** on behalf of all users in the directory. This will prevent the consent screen from being shown to the user the first time they login, which is often preferable in an internal organization environment.
 
 ## C) Enable the Azure AD strategy in Wiki.js
